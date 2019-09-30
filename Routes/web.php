@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('about')->group(function() {
-    Route::get('/', 'AboutController@index');
+Route::prefix('over-ons')->group(function() {
+    Route::get('/', 'AboutController@index')->name('main.about');
 });
